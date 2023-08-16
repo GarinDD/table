@@ -1,6 +1,32 @@
 table {
-    border: 1px solid black ;
-    padding: 5px;
+    border: 1px;
+    padding: 10px;
+    border-collapse:collapse;
+    border-spacing:5px;
+    width: 400px;
 
 
+}
+.header {
+            
+    border-top: 1px solid black ;
+    border-bottom: 1px solid black;
+}
+td {
+    padding: 10px;
+}
+.Header2{
+    background-color:darkcyan;
+    color:aliceblue;
+    padding:10px;
+}
+.Visits{
+    background-color:rgb(197, 233, 233);
+    color:aliceblue;
+
+}
+.row {
+    background:rgb(243, 243, 200);
+    border-top:1px solid rgb(200, 199, 199);
+    border-bottom:1px solid rgb(200, 199, 199);
 }
