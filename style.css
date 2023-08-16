@@ -1,9 +1,9 @@
+
 table {
     border: 1px;
     padding: 10px;
     border-collapse:collapse;
     border-spacing:5px;
-    width: 400px;
 
 
 }
@@ -14,15 +14,22 @@ table {
 }
 td {
     padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 
+    Calibri, 'Trebuchet MS', sans-serif;
 }
 .Header2{
     background-color:darkcyan;
     color:aliceblue;
     padding:10px;
+    width: 120px;
+    text-align: left;
+
 }
 .Visits{
     background-color:rgb(197, 233, 233);
     color:aliceblue;
+    text-align: center;
+    width: 110px;
 
 }
 .row {
@@ -30,3 +37,16 @@ td {
     border-top:1px solid rgb(200, 199, 199);
     border-bottom:1px solid rgb(200, 199, 199);
 }
+
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.Header1{
+    background-color:darkcyan;
+    color:aliceblue;
+    padding:10px;
+    width: 120px;
+    text-align: right;
